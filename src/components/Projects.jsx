@@ -1,6 +1,11 @@
 import React, { Component } from 'react'
 import { ExternalLinkIcon, GithubIcon } from 'lucide-react'
 import pawgo from '../assets/pawgo.png'
+import Bus from '../assets/Bus.jpg'
+import finance from '../assets/finance.png'
+import tasty from '../assets/tasty.png'
+import kfc from '../assets/kfc.png'
+
 export const Projects = () => {
   const projects = [
     {
@@ -19,7 +24,7 @@ export const Projects = () => {
       description:
         'This web-based application simplifies the process of booking seats for passengers by providing an intuitive and user-friendly platform.',
       image:
-        'https://i.postimg.cc/hP1JMVq9/Whats-App-Image-2025-05-05-at-17-50-58-7b330e80.jpg',
+        Bus,
       tags: ['html', 'css', 'JavaScript'],
       liveLink: 'https://github.com/Daniru12/Bus-Ticket-Reservation-System',
       
@@ -30,7 +35,7 @@ export const Projects = () => {
       description:
         'This web-based food ordering system is designed to provide an engaging and user-friendly experience similar to popular fast-food platforms. Customers can easily navigate through the menu, personalize their orders, and complete transactions smoothly online.',
       image:
-        'https://i.postimg.cc/yYpTvqKh/image.png',
+        kfc,
       tags: ['React.js', 'Express.js', 'Node.js', 'MongoDB'],
       githubLink: 'https://github.com/ishani2924/Food-Ordering-System-KFC',
     },
@@ -41,7 +46,7 @@ export const Projects = () => {
       description:
         'This fast food ordering app was built with a focus on simplicity and user convenience. Users can effortlessly browse through a menu of popular fast food items, customize their orders, and complete purchases within a few taps.',
       image:
-        'https://i.postimg.cc/sxYpYXzK/image.png',
+        tasty,
       tags: ['Kotlin'],
       githubLink: 'https://github.com/ishani2924/Food-Ordering-System-KFC',
     },
@@ -52,7 +57,7 @@ export const Projects = () => {
       description:
         'A finance tracker web application designed to simplify budget management by allowing users to easily monitor income and expenses, helping them stay in control of their financial health.',
       image:
-        'https://i.postimg.cc/GpJ5qcj7/Screenshot-2025-05-16-185610.png',
+        finance,
       tags: ['Kotlin'],
       githubLink: 'https://github.com/ishani2924/Food-Ordering-System-KFC',
     },
