@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { ExternalLinkIcon, GithubIcon } from 'lucide-react'
+import pawgo from '../assets/pawgo.png'
 export const Projects = () => {
   const projects = [
     {
@@ -8,7 +9,7 @@ export const Projects = () => {
       description:
         'The platform connects pet owners with service providers in a user-friendly way allowing both parties to easily access and offer pet care services ensuring seamless interaction between pet owners and service providers.',
       image:
-        'https://i.postimg.cc/ZnhDj8xk/Screenshot-2025-05-05-145451.png',
+        pawgo,
       tags: ['React.js', 'Express.js', 'Node.js', 'MongoDB'],
       liveLink: 'https://paw-go.vercel.app/',
     },
