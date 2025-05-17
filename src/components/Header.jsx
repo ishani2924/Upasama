@@ -10,8 +10,8 @@ export const Header = () => {
       <div className="container mx-auto px-6 py-4 flex justify-between items-center">
         <div className="font-bold text-xl text-gray-800">
           <a href="#" className="flex items-center">
-            <span className="text-blue-600">Portfolio</span>
-            <span>.dev</span>
+            <span className="text-blue-600">Upasama</span>
+            <span>.Ishani</span>
           </a>
         </div>
         {/* Desktop Navigation */}

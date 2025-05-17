@@ -8,8 +8,8 @@ export const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-6 md:mb-0">
             <div className="font-bold text-xl text-white mb-2">
-              <span className="text-blue-400">Portfolio</span>
-              <span>.dev</span>
+              <span className="text-blue-400">Upasama</span>
+              <span> Ishani</span>
             </div>
             <p className="text-gray-400">
               Creating exceptional digital experiences
@@ -18,32 +18,20 @@ export const Footer = () => {
           <div className="flex flex-col items-center md:items-end">
             <div className="flex space-x-4 mb-4">
               <a
-                href="#"
+                href="https://github.com/ishani2924"
                 className="text-gray-400 hover:text-white transition-colors"
               >
                 <GithubIcon size={20} />
               </a>
               <a
-                href="#"
+                href="https://www.linkedin.com/in/upasama-ishani-7727a12a0/"
                 className="text-gray-400 hover:text-white transition-colors"
               >
                 <LinkedinIcon size={20} />
               </a>
-              <a
-                href="#"
-                className="text-gray-400 hover:text-white transition-colors"
-              >
-                <TwitterIcon size={20} />
-              </a>
-              <a
-                href="#"
-                className="text-gray-400 hover:text-white transition-colors"
-              >
-                <MailIcon size={20} />
-              </a>
             </div>
             <p className="text-gray-500 text-sm">
-              © {currentYear} John Doe. All rights reserved.
+              © {currentYear} Upasama Ishani. All rights reserved.
             </p>
           </div>
         </div>
@@ -80,7 +68,6 @@ export const Footer = () => {
               Contact
             </a>
           </nav>
-          <p className="text-gray-500 text-sm">Designed and built with ❤️</p>
         </div>
       </div>
     </footer>
