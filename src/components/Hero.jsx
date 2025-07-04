@@ -84,8 +84,8 @@ export const Hero = () => {
             </a>
             {/* Download CV button using imported file */}
             <a
-              href={MyResume}
-              download="UpasamaIshani.pdf"
+              href="/jayasundara.pdf"
+              download="jayasundara.pdf"
               className="text-gray-600 hover:text-blue-600 transition-colors p-2 hover:bg-blue-50 rounded-full"
               aria-label="Download CV"
             >
