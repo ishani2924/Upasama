@@ -76,7 +76,7 @@ export const Contact = () => {
                     value={formData.name}
                     onChange={handleChange}
                     className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring focus:ring-blue-200 focus:border-blue-600 outline-none transition"
-                    placeholder="John Doe"
+                    placeholder="upasama ishani"
                     required
                   />
                 </div>
@@ -93,7 +93,7 @@ export const Contact = () => {
                     value={formData.email}
                     onChange={handleChange}
                     className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring focus:ring-blue-200 focus:border-blue-600 outline-none transition"
-                    placeholder="john@example.com"
+                    placeholder="ishani@example.com"
                     required
                   />
                 </div>
