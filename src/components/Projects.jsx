@@ -56,7 +56,7 @@ export const Projects = () => {
   ];
 
   return (
-    <section id="projects" className="py-20 bg-[#EAF4FF]">
+    <section id="projects" className="py-20 bg-[#d0dfef]">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-3xl font-bold text-[#001F3F] mb-4">My Projects</h2>
@@ -88,7 +88,7 @@ export const Projects = () => {
                   {project.tags.map((tag) => (
                     <span
                       key={tag}
-                      className="px-3 py-1 bg-[#DCEEFF] text-[#001F3F] text-sm font-medium rounded-full"
+                      className="px-3 py-1 bg-[#A4CCD9] text-[#001F3F] text-sm font-medium rounded-full"
                     >
                       {tag}
                     </span>

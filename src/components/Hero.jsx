@@ -288,17 +288,7 @@ export const Hero = () => {
             </div>
 
             {/* Professional tech stack badges */}
-            <div className="absolute -bottom-4 -right-4 flex flex-col space-y-3">
-              <div className="w-14 h-14 bg-white rounded-full flex items-center justify-center shadow-lg hover:shadow-xl transform hover:scale-110 transition-all duration-300 animate-bounce border-2 border-blue-200">
-                <span className="text-blue-800 font-bold text-base">R</span>
-              </div>
-              <div className="w-14 h-14 bg-white rounded-full flex items-center justify-center shadow-lg hover:shadow-xl transform hover:scale-110 transition-all duration-300 animate-bounce delay-100 border-2 border-slate-200">
-                <span className="text-slate-700 font-bold text-base">JS</span>
-              </div>
-              <div className="w-14 h-14 bg-white rounded-full flex items-center justify-center shadow-lg hover:shadow-xl transform hover:scale-110 transition-all duration-300 animate-bounce delay-200 border-2 border-blue-200">
-                <span className="text-blue-800 font-bold text-base">TS</span>
-              </div>
-            </div>
+            
 
             {/* Professional skill indicators */}
             <div className="absolute -top-4 -left-4 w-10 h-10 bg-gradient-to-br from-blue-700 to-blue-800 rounded-full flex items-center justify-center shadow-lg animate-float">
